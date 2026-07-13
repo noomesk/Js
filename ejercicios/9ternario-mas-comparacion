@@ -1,0 +1,31 @@
+/*Ejercicio 6 — Ternario + comparación
+Crea una función: clasificarEdad(edad)
+
+Debe retornar:
+
+"Adulto" si la edad es mayor o igual a 18.
+"Menor" si la edad es menor a 18.
+Pero usando operador ternario. */
+
+function clasificarEdad(edad) {
+    const resultado = edad >= 18 ? "Adulto" : "Menor";
+
+    return resultado;
+}
+
+console.log(clasificarEdad(25));
+console.log(clasificarEdad(12));
+
+
+// esto hace exactamente lo mismo: 
+function clasificarEdad(edad) {
+    return edad >= 18 ? "Adulto" : "Menor";
+}
+
+//si usara un if else seria asi: 
+
+if (edad >= 18) {
+    return "Adulto";
+} else {
+    return "Menor";
+}

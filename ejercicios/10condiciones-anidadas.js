@@ -49,3 +49,25 @@ function puedeConducir(edad, tieneLicencia) {
 
 //Esta versión es más común en código profesional 
 // porque evita muchos niveles de indentación.
+
+//Si la edad es negativa o no es un numero, retorna \'invalido'\.
+
+function clasificarEdad(edad) {
+    if (typeof edad !== "number" || edad < 0) {
+        return "edad inválida";
+    }
+    if (edad>0 && edad<=2) {
+      return "bebe";
+    } else if (edad>=3 && edad<=12) {
+      return "niño";
+    } else if (edad>=13 && edad<=19) {
+      return "adolescente";
+    } else if (edad>=20 && edad<=59) {
+      return "adulto";
+    } else if (edad>=60) {
+      return "anciano";
+    } else {
+      return "edad inválida";
+    } 
+  
+}

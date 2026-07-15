@@ -28,3 +28,9 @@ const miBoton = document.querySelector("#btn-saludo");
 miBoton?.addEventListener("click", () => {
   console.log("¡Hola, wachi sois geniale' locoooo!");
 });
+
+// con ?. le estás diciendo a JavaScript: 
+// "Oye, si miBoton existe, entonces agrégale el evento".
+
+//con eso dominas el escudo protector y evitas errores si el elemento no se encuentra en el DOM.
+//ya sabemos cómo escuchar un clic en un botón y mostrar un mensaje en la consola. :3 wiii 

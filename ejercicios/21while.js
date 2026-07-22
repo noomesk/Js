@@ -45,3 +45,9 @@ while (true) {
 
 bucles infinitos !! tener en cuenta jeje
  */
+
+
+
+//while (Primero pregunta, luego actúa): 
+// Si la condición es falsa desde el inicio, 
+// el código de adentro nunca se ejecuta.

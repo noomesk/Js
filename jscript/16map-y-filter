@@ -1,0 +1,9 @@
+/**
+ * Ejercicio 2: Encadenar map y filter
+Explicación: Como .filter() devuelve un array, puedes pegarle 
+un .map()  inmediatamente después en una sola línea.
+ */
+
+const nombresAprobados = estudiantesJSON
+    .filter(e => e.nota >= 60) // 1. Filtramos y obtenemos un array de objetos aprobados
+    .map(e => e.nombre);       // 2. De ese array filtrado, extraemos solo el texto del nombre

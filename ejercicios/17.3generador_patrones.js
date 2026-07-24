@@ -40,3 +40,16 @@ Bucle externo = filas.
 Primer bucle interno = cosas antes (espacios).
 
 Segundo bucle interno = cosas que dibuje (Z.B. estrellas)*/ 
+
+
+const numeros = [10, 20, 30];
+
+let total = 0;
+
+for (let i = 0; i < numeros.length; i++) {
+  debugger;
+
+  total += numeros[i];
+}
+
+console.log(total);  // ejercicio para probar debugger borrar luego

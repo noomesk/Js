@@ -13,12 +13,20 @@ Si no, imprimimos el número.*/
 // ¡CÓDIGO CON ERROR DE LÓGICA!
 let n = 14;
 
-if (n % 2 === 0) {
+if (n % 2 === 0 && n % 7 === 0) {
+    console.log("VoltAmpere");
+} else if (n % 2 === 0) {
     console.log("Volt");
 } else if (n % 7 === 0) {
     console.log("Ampere");
-} else if (n % 2 === 0 && n % 7 === 0) {
-    console.log("VoltAmpere");
 } else {
     console.log(n);
 }
+
+/* ¿Qué pasa con el número 14?
+
+Evalúa 14 % 2 === 0. Es true.
+Imprime "Volt" y sale del bloque.
+¡Nunca llegó a evaluar si era divisible por ambos! Perdimos el "VoltAmpere".
+La Solución: Debes evaluar siempre primero la condición más específica o restrictiva 
+(la que requiere que se cumplan ambas cosas a la vez), y después las condiciones individuales. */

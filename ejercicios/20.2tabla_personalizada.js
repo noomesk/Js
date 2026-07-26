@@ -14,3 +14,18 @@ Crea una función llamada tablaMultiplicar(numero) que imprima en la consola la 
 
 //llamo a la función:
 tablaMultiplicar(3);
+
+// consejo senior: 
+
+/*
+Como tu código ya es excelente, solo te muestro una variante que verás mucho en producción.
+ Como los Template Literals permiten meter operaciones matemáticas directamente dentro del ${}, 
+ podrías haber ahorrado una línea de código escribiéndolo así:
+
+
+function tablaMultiplicar(numero) {
+    for(let i=1; i<=10; i++) {
+        // Hacemos la operación directamente dentro del string
+        console.log(`${numero} x ${i} es ${numero * i}`);
+    }
+}   */ 

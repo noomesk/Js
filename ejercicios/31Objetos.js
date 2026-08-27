@@ -12,7 +12,7 @@ const producto = {
 };
 
 function etiqueta(item) {
-  return item.nombre + " - " + item.precio; //item es el objeto q me pasen  ZB: etiqueta(producto) ES item = producto;; 
+  return item.nombre + " — " + item.precio; //item es el objeto q me pasen  ZB: etiqueta(producto) ES item = producto;; 
 }
 
 console.log(etiqueta(producto));

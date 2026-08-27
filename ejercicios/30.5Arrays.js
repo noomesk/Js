@@ -11,7 +11,7 @@ function sumarMayoresDeDiez(numeros){
     let total = 0; 
     for (let i = 0; i < numeros.length; i++) {
         if (numeros[i] > 10 ) { // para comprobar si el elemento actual es mayor q 10
-            total += numeros[i]  //va acumulando la suma y en return devuelve esa suma
+            total += numeros[i]; //va acumulando la suma y en return devuelve esa suma
         }
     }
         return total; 

@@ -19,7 +19,7 @@ noEnciende(true);
 if (enciende === true)
 
 // esto es lo más habitual y más sencillo: 
-if (enciende) // esto pregunta: ¿El valor de enciende es verdadero?
+if (enciende); // esto pregunta: ¿El valor de enciende es verdadero?
 
 
 //en este ejercicio se reciben como parámetros: true o false. 

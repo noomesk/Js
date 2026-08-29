@@ -3,12 +3,13 @@
 
 const evento = {
   nombre: "Hackaton",
-  fecha: "2026-06-28",
+  fecha: "2026-06-28", // también se puede asi:  fecha: new Date("2025-06-28"), 
   cupos: 3,
 };
 
-function etiqueta(item) {
-  return item.nombre + " — " + item.precio; //item es el objeto q me pasen  ZB: etiqueta(producto) ES item = producto;; 
-}
 
-console.log(etiqueta(producto));
+/**
+ * console.log(evento.nombre);
+ * console.log(evento.fecha);
+ * console.log(evento.cupos);
+ */

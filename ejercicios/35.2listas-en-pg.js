@@ -1,4 +1,5 @@
 //Ejercicio reto, unidad 13.
+//Convertir los datos de un array en elementos visibles.
 /**Completar resumenLista(items) Debe devolver exactamente: "3 tareas · Primera:Leer" 
  * cuando recibe ["Leer", "Practicar", "Descansar"] usa el array recibido
  * no datos fijos. 

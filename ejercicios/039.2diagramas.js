@@ -5,4 +5,4 @@ function aceptarReserva(reserva) {
   return "Recerva no disponible";
 }
 
-console.log(aceptarReserva(2));
+console.log(aceptarReserva(2));     

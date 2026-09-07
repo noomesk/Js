@@ -19,6 +19,7 @@ function crearResumen(pendientes, completadas) {
 console.log(crearResumen(3, 2));
 
 //el DOM puede registrar su retorno:
+ 
 //ejercicio: Completa crearResumen sin usar document
 //Debe devolver: Total: 5 Pendientes: 3
 function crearResumen(pendientes, completadas) {
@@ -34,3 +35,9 @@ function crearResumen(pendientes, completadas) {
 }
 
 console.log(crearResumen(3, 2));
+
+
+/**
+ * Datos conservan estado; reglas calculan; coordinación conecta eventos; 
+ * interfaz representa. No necesitas nombres de patrones para evaluar esas fronteras.
+ */

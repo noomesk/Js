@@ -25,3 +25,12 @@ import { total } from "./reglas.js";
 /**¿Cómo sé qué archivo debe contener una función? 
  * Ponla junto a los datos o reglas que conoce. 
  * Si necesita DOM, pertenece a interfaz; si calcula sin DOM, pertenece a reglas. */
+
+//3. Divide una calculadora de gastos en datos, reglas e interfaz.
+//función pura: 
+function calculadora(gastos) {
+  return precio + (precio * tasa);
+}
+
+console.log(precioConImpuesto(100, 0.19));
+

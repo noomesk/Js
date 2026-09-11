@@ -14,3 +14,11 @@ console.log(contador);
 const edad = Number("20");
 const puedeEntrar = edad >= 18;
 console.log(puedeEntrar);
+
+
+//Convierte una temperatura escrita y calcula su equivalente en Fahrenheit.
+const celsius = Number("232.78"); //celsius 
+const fahrenheit = (celsius * 9 / 5) + 32; // 451 Fahrenheit
+
+console.log(fahrenheit); 
+

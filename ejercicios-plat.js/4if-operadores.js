@@ -26,6 +26,15 @@ function tarifa(edad) {
   return "general";
 }
 
+//reto debbug:
+function puedeRegistrarse(edad) {
+  if (edad >= 18){
+    return true;
+  }
+  return false;
+}
+
+
 //DOCUMENTACIÓN:
 //control de flujo y manejo de errores: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Control_flow_and_error_handling
 //op lógicos: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Logical_AND

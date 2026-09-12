@@ -4,7 +4,7 @@ function fizzBuzz(n) {
   
   for(let i = 1; i <= n; i++ ) {
     if (i % 3 === 0 && i % 5 === 0) {
-        resultados.push("FizzBuzz");  
+        resultados.push("FizzBuzz");  // para guardarlos en un ARREGLO, casi siempre uso: array.push(valor); 
     } else if (i % 3 === 0) {
         resultados.push("Fizz");
     }  else if (i % 5 === 0) {
@@ -22,8 +22,8 @@ function fizzBuzz(n) {
 //llamada de prueba, asi llamo a la función:
 console.log(fizzBuzz(15));
 
-// para guardarlos en un ARREGLO, casi siempre uso: array.push(valor); 
-    //push() significa literalmente "agregar al final del arreglo".
+
+//------------push() significa literalmente "agregar al final del arreglo".---------------
 
 /* ejemplo de guardar en array:
 let frutas = [];

@@ -8,3 +8,6 @@
 const promedio = estudiantesJSON.reduce((suma, estudiante) => {
     return suma + estudiante.nota; // Sumamos la nota actual al acumulador
 }, 0) / estudiantesJSON.length; // El '0' al final es el valor inicial de 'suma'
+
+
+

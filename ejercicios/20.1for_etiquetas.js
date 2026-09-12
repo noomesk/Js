@@ -1,3 +1,8 @@
+/* EJERCICIO:
+Imagina que trabajas en un e-commerce y tienes una lista de precios en dólares.
+ Tu jefe te pide que generes el texto para las etiquetas de descuento, restándole
+  $5 a cada producto que cueste más de $10. */
+
 const preciosOriginales = [8, 12, 25, 5, 18];
 const preciosDescuento = [];
 

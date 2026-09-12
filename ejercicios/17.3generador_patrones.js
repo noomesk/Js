@@ -52,4 +52,5 @@ for (let i = 0; i < numeros.length; i++) {
   total += numeros[i];
 }
 
-console.log(total);  // ejercicio para probar debugger borrar luego
+console.log(total);  // ejercicio para probar debugger borrar luego}
+

@@ -1,3 +1,4 @@
+//Escribe una función que reciba un número llamado edad.
 function verificarEdad(edad) {
     if (edad >= 18) {
         return "Mayor de edad";

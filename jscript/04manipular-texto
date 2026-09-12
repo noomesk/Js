@@ -1,0 +1,22 @@
+/**
+Ejercicio 2: Manipular el texto
+Imagina que tenemos este HTML:
+
+html
+
+<!--<h1 id="mensaje">Texto Original</h1> -->
+ <button id="btn-cambiar">Cambiar el texto</button>
+// Tu objetivo: Queremos que al hacer clic en el botón con ID btn-cambiar, el texto del título h1 (con ID mensaje) cambie a:
+ "¡Felicidades, cambiaste el texto con JS!".
+*/
+
+ // mi solución: 
+
+const miTitulo = document.querySelector("#mensaje"); 
+const miBoton = document.querySelector("#btn-cambiar");
+
+btn-cambiar?.addEventListener("click", () => {
+  miTitulo.textContent = "¡Felicidades, cambiaste el texto con JS!"; //aqui tengo una duda, ese texto si va ahí?? y va con "" o asi??
+});
+
+const 

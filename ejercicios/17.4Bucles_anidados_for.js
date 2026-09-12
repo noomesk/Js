@@ -16,6 +16,7 @@ Así que pensamos:
 Necesito dibujar 3 filas (Bucle Externo).
 En cada fila, necesito colocar 3 columnas de "# " (Bucle Interno).
 Al terminar cada fila, necesito añadir un salto de línea (\n) para que la siguiente fila empiece abajo. */
+
 let resultado = ""; // Aquí acumulamos todo el dibujo
 
 // Bucle Externo: Controla las FILAS (i va de 0 a 2, total 3 filas)

@@ -25,7 +25,7 @@ Batería al: 0%
 let bateria = 25; // Porcentaje inicial
 
 
-// Mientras que bateria sea mayor o igual q cero...
+// Mientras que bateria sea mayor  o igual q cero...
 while (bateria > 0) {
     // bateria menos 5 
     bateria = (bateria - 5 ); 

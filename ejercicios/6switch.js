@@ -117,3 +117,29 @@ function calcularPrecio(tipoCliente){
 
     return precio;
 }
+
+
+//comentario importante:
+
+/**break
+Afecta al switch:
+
+switch
+   |
+   ├── case 1
+   ├── case 2
+   ├── case 3
+   |
+   └── break → salgo del switch
+return
+
+Afecta a la función completa:
+
+función
+   |
+   ├── switch
+   |
+   └── return → salgo de toda la función */
+
+   // En resumen, break sale del switch, return sale de la función completa.
+   

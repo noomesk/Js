@@ -39,3 +39,4 @@ while(contador >= 1)
 
 Cuando deje de cumplirse, sale.
  */
+

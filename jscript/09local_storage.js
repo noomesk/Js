@@ -1,33 +1,15 @@
-const clave = document.getElementById("clave");
-const valor = document.getElementById("valor");
+const color = document.getElementById("color");
 const resultado = document.getElementById("resultado");
 
-// Guardar dato en localStorage
-document.getElementById("color").addEventListener("click", () => {
-    if (!clave.value || !valor.value) {
+// Buscar boton q guarda color
+document.getElementById("guardarColor").addEventListener("click", () => {
+    if (!color.value) { // pa revisar si el color ta vacio
         resultado.textContent = "Debes ingresar un color";
-        return;
+        return; //detener la funct ´pa q no siga ejecutando 
     }
-    localStorage.setItem("colorFavorito", color.value); // no sé donde poner colorFavorito ¿dónde lo pongo?
-    resultado.textContent = `Color guardado: ${clave.value} = ${valor.value}`;
+    // Leer dato de localStorage (dato guardado q el user escribió)
+    localStorage.setItem("colorFavorito", color.value); // ***no sé donde poner colorFavoritoxd ¿si va ahí?
+    //mensaje confirmatorio de q el color si se wardó
+    resultado.textContent = `Color guardado: ${color.value}`;
 });
 
-// Leer dato de localStorage
-document.getElementById("leer").addEventListener("click", () => {
-    const dato = localStorage.getItem(clave.value);
-    resultado.textContent = dato
-        ? `Encontrado: ${clave.value} = ${dato}`
-        : `No se encontró la clave "${clave.value}"`;
-});
-
-// Eliminar un dato
-document.getElementById("eliminar").addEventListener("click", () => {
-    localStorage.removeItem(clave.value);
-    resultado.textContent = `Eliminado: ${clave.value}`;
-});
-
-// Limpiar todo el storage
-document.getElementById("limpiar").addEventListener("click", () => {
-    localStorage.clear();
-    resultado.textContent = "localStorage limpiado";
-});

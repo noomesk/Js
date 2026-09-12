@@ -6,5 +6,3 @@ function imprimirNumeros() {
 }
 }
 
-
-imprimirNumeros();  

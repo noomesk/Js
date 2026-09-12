@@ -15,7 +15,7 @@ function buscarNumero(n) {
         if (i === n) {
 
         console.log(i);
-        break;
+        break; //dentro del for, pero debajo de console.log(i) para que se ejecute antes de salir del bucle.
 
         }
 

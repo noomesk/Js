@@ -22,3 +22,5 @@ const fahrenheit = (celsius * 9 / 5) + 32; // 451 Fahrenheit
 
 console.log(fahrenheit); 
 
+//consulta ops: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_operators 
+//constulta num: https://developer.mozilla.org/es/docs/Web/API/console/log_static 

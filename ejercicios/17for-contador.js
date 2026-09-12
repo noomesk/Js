@@ -12,3 +12,5 @@ function contarPares(n) {
 
     return contador;
 }
+
+//si quiero Contar ocurrencias uso:  contador++

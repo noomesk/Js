@@ -53,3 +53,59 @@ function esComandoGuardar(texto) {
 //Porque startsWith() ya me devuelve exactamente lo que la función 
 // necesita devolver (true o false), no hace falta pasar por 
 // un if para decidir qué devolver — simplemente devuelvo ese resultado directamente MUAJEJE
+
+//trim devuelve texto sin bordes, 
+// toLowerCase devuelve minúsculas y endsWith devuelve un booleano:
+const correo = "  ANA@EJEMPLO.COM ";
+const limpio = correo.trim().toLowerCase();
+console.log(limpio.endsWith(".com"));
+
+/**
+ * Un método se llama desde un receptor. length es una propiedad; 
+ * trim(), includes() y startsWith() son métodos. 
+ * Los métodos de string devuelven valores nuevos.
+ */
+
+//ejercicio2: Normaliza un nombre de usuario y comprueba si termina en un sufijo permitido.
+const usuario = "  NOOMESK.COM ";
+const normalizado = usuario.trim().toLowerCase();
+console.log(normalizado.endsWith(".com"));
+
+//DOCUMENTACIÓN: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String
+
+
+//--------------------------------------------------------------------------------------
+function convertirYAnalizar(valor) {
+  // 1. Convierte "valor" a string usando la función String() (SIN new)
+  const textoConvertido = String(valor);
+  // 2. Guarda el resultado en una variable llamada "textoConvertido"
+  // 3. Usa typeof para verificar que el resultado sea de tipo "string"
+  const tipoDeDato = typeof textoConvertido;
+  // 4. Devuelve un objeto con esta forma:
+  //    { texto: textoConvertido, tipo: "el tipo que obtuviste con typeof" }
+  return { texto: textoConvertido, tipo: tipoDeDato };
+ 
+}
+
+
+console.log(convertirYAnalizar(789));
+// Resultado esperado: { texto: "789", tipo: "string" }
+
+console.log(convertirYAnalizar(true));
+// Resultado esperado: { texto: "true", tipo: "string" }
+
+
+
+ console.log("texto:" + texto); 
+
+ //aceder a un caracter: ( ECMAScript 5)
+ return "cat".charAt(1); // devuelve "a"
+ //esta es + moderna:
+ return "cat"[1]; // devuelve "a"
+
+
+ // debe reconocer jpg mayus y min, otros formatos no 
+ function esJpg(nombre) {
+  const mayus = nombre.toLowerCase(); 
+  return mayus.endsWith(".jpg");
+}
